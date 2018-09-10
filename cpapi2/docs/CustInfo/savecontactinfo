@@ -1,6 +1,6 @@
 # https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+CustInfo::savecontactinfo
-email: _emailaddress
-second_email: _emailaddress
+email: _emailAddress
+second_email: _emailAddress
 notify_account_authn_link: _boolean
 notify_account_authn_link_notification_disabled: _boolean
 notify_account_login: _boolean
@@ -22,4 +22,4 @@ notify_ssl_expiry: _boolean
 notify_twofactorauth_change: _boolean
 notify_twofactorauth_change_notification_disabled: _boolean
 pushbullet_access_token:
-username: _emailaddress
+username: _emailAddress

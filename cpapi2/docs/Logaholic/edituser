@@ -1,5 +1,5 @@
 # https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Logaholic::edituser
 username:
 fullname:
-email: _emailaddress
+email: _emailAddress
 password:

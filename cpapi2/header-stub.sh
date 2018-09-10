@@ -4,7 +4,7 @@
 # Author: Mark David Scott Cunningham                      | M  | D  | S  | C  |
 #                                                          +----+----+----+----+
 # Created: 2016-06-21
-# Updated: 2018-06-11
+# Updated: 2018-09-09
 #
 # Purpose: Add bash tab completion to WHM/cPanel command line api utilities
 #
@@ -39,7 +39,7 @@ _cpapi_dbuserlist(){
   cpapi2 --user $username MysqlFE getdbusers | awk  '/ - /{print $2}' | sort | uniq
 }
 
-_cpapi_emailaddress(){
+_cpapi_emailAddress(){
   for x in /home*/$username/mail/*/*/; do
     email=$(echo $x | awk -F/ '{print $(NF-1)"@"$(NF-2)}'); echo $email;
   done
