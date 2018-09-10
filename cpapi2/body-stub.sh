@@ -454,7 +454,7 @@ CustInfo )
     COMPREPLY=( $(compgen -W "username" -- ${cur}) )
     case ${prev} in
       username )
-        COMPREPLY=( $(compgen -W "$(_cpapi_emailaddress)" -- ${cur}) )
+        COMPREPLY=( $(compgen -W "$(_cpapi_emailAddress)" -- ${cur}) )
         return 0 ;;
     esac
     return 0 ;;
@@ -474,10 +474,10 @@ CustInfo )
     COMPREPLY=( $(compgen -W "email second_email notify_account_authn_link notify_account_authn_link_notification_disabled notify_account_login notify_account_login_for_known_netblock notify_account_login_notification_disabled notify_autossl_expiry notify_autossl_expiry_coverage notify_autossl_renewal_coverage_reduced notify_autossl_renewal notify_autossl_renewal_coverage notify_bandwidth_limit notify_contact_address_change notify_contact_address_change_notification_disabled notify_disk_limit notify_email_quota_limit notify_password_change notify_password_change_notification_disabled notify_ssl_expiry notify_twofactorauth_change notify_twofactorauth_change_notification_disabled pushbullet_access_token username" -- ${cur}) )
     case ${prev} in
       email )
-        COMPREPLY=( $(compgen -W "$(_cpapi_emailaddress)" -- ${cur}) )
+        COMPREPLY=( $(compgen -W "$(_cpapi_emailAddress)" -- ${cur}) )
         return 0 ;;
       second_email )
-        COMPREPLY=( $(compgen -W "$(_cpapi_emailaddress)" -- ${cur}) )
+        COMPREPLY=( $(compgen -W "$(_cpapi_emailAddress)" -- ${cur}) )
         return 0 ;;
       notify_account_authn_link )
         COMPREPLY=( $(compgen -W "$(_cpapi_boolean)" -- ${cur}) )
@@ -543,7 +543,7 @@ CustInfo )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
       username )
-        COMPREPLY=( $(compgen -W "$(_cpapi_emailaddress)" -- ${cur}) )
+        COMPREPLY=( $(compgen -W "$(_cpapi_emailAddress)" -- ${cur}) )
         return 0 ;;
     esac
     return 0 ;;
@@ -1331,7 +1331,7 @@ Email )
       mailbox )
         COMPREPLY=( $(compgen -W "$(_cpapi_emailAddress)" -- ${cur}) )
         return 0 ;;
-      filter{1..10} )
+      filter* )
         COMPREPLY=( $(compgen -W "$(_cpapi_filterList)" -- ${cur}) )
         return 0 ;;
     esac
@@ -1446,22 +1446,22 @@ Email )
       oldfiltername )
         COMPREPLY=( $(compgen -W "$(_cpapi_filterList)" -- ${cur}) )
         return 0 ;;
-      action{1..10} )
+      action* )
         COMPREPLY=( $(compgen -W "deliver fail finish save pipe" -- ${cur}) )
         return 0 ;;
-      dest{1..10} )
+      dest* )
         COMPREPLY=( $(compgen -W "$(_cpapi_emailAddress)" -- ${cur}) )
         return 0 ;;
-      match{1..10} )
+      match* )
         COMPREPLY=( $(compgen -W "is matches contains does%20no%contain begins does%20not%20begin ends does%20not$%20end does%20not$20match is%20above is%20not%above is%20below is%20not%20below" -- ${cur}) )
         return 0 ;;
-      opt{1..10} )
+      opt* )
         COMPREPLY=( $(compgen -W "and or" -- ${cur}) )
         return 0 ;;
-      part{1..10} )
+      part* )
         COMPREPLY=( $(compgen -W "$header_from $header_subject $header_to $reply_address $message_body $message_headers foranyaddress $h_to $h_cc not%20delivered" -- ${cur}) )
         return 0 ;;
-      val{1..10} )
+      val* )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
     esac
@@ -1674,7 +1674,7 @@ Fileman )
       filelist )
         COMPREPLY=( $(compgen -W "$(_cpapi_boolean)" -- ${cur}) )
         return 0 ;;
-      filepath-{1..10} )
+      filepath-* )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
       needmime )
@@ -1782,7 +1782,7 @@ Fileman )
       dir )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
-      file-{1..10} )
+      file-* )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
     esac
@@ -2361,7 +2361,7 @@ Logaholic )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
       email )
-        COMPREPLY=( $(compgen -W "$(_cpapi_emailaddress)" -- ${cur}) )
+        COMPREPLY=( $(compgen -W "$(_cpapi_emailAddress)" -- ${cur}) )
         return 0 ;;
       password )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
@@ -3184,13 +3184,10 @@ RoR )
     esac
     return 0 ;;
 
-https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+RoR::stopapp
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+RoR::stopapp
   stopapp )
-    COMPREPLY=( $(compgen -W "https appname" -- ${cur}) )
+    COMPREPLY=( $(compgen -W "appname" -- ${cur}) )
     case ${prev} in
-      https )
-        COMPREPLY=( $(compgen -W "//documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+RoR" -- ${cur}) )
-        return 0 ;;
       appname )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
@@ -3265,10 +3262,10 @@ SourceIPCheck )
       account )
         COMPREPLY=( $(compgen -W "$(_cpapi_cpuser)" -- ${cur}) )
         return 0 ;;
-      q{1..10} )
+      q* )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
-      q{1..10}answer )
+      q*answer )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
     esac
@@ -3289,20 +3286,17 @@ SourceIPCheck )
     COMPREPLY=( $(compgen -W "" -- ${cur}) )
     return 0 ;;
 
-https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+SourceIPCheck::savesecquestions
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+SourceIPCheck::savesecquestions
   savesecquestions )
-    COMPREPLY=( $(compgen -W "https account q{1..10}answer q{1..10}ques" -- ${cur}) )
+    COMPREPLY=( $(compgen -W "account q{1..10}answer q{1..10}ques" -- ${cur}) )
     case ${prev} in
-      https )
-        COMPREPLY=( $(compgen -W "//documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+SourceIPCheck" -- ${cur}) )
-        return 0 ;;
       account )
         COMPREPLY=( $(compgen -W "$(_cpapi_cpuser)" -- ${cur}) )
         return 0 ;;
-      q{1..10}answer )
+      q*answer )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
-      q{1..10}ques )
+      q*ques )
         COMPREPLY=( $(compgen -W "" -- ${cur}) )
         return 0 ;;
     esac
@@ -4046,14 +4040,9 @@ UserHttpUtils )
 
   case ${functionName} in
 
-https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+UserHttpUtils::getdirindices
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+UserHttpUtils::getdirindices
   getdirindices )
-    COMPREPLY=( $(compgen -W "https" -- ${cur}) )
-    case ${prev} in
-      https )
-        COMPREPLY=( $(compgen -W "//documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+UserHttpUtils" -- ${cur}) )
-        return 0 ;;
-    esac
+    COMPREPLY=( $(compgen -W "" -- ${cur}) )
     return 0 ;;
   esac
 

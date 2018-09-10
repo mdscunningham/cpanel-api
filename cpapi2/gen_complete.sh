@@ -40,7 +40,7 @@ $(head -n1 $filename)
     echo -e "    case \${prev} in"
 
     sed '/^$/d' $filename | grep -v '#' | while read line; do
-      param=$(echo $line | cut -d: -f1)
+      param=$(echo $line | cut -d: -f1 | sed 's/{1..10}/*/g')
       values=$(echo $line | cut -d: -f2 | sed 's/^ //')
 
       if [[ $values =~ ^_ ]]; then
