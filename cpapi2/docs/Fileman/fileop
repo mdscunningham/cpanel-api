@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Fileman::fileop
+op: copy move rename chmod extract compress link unlink trash
+sourcefiles: 
+destfiles: 
+doubledecode: _boolean
+metadata: 0644 0755 zip tar.gz tar.bz2 tar gz bz2

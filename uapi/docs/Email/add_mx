@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::add_mx
+domain: _domainList
+exchanger: 
+priority: 0 1 {5..50..5}
+alwaysaccept: _boolean

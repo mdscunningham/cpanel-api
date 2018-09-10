@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+DNSSEC::enable_dnssec
+domain: _domainList
+use_nsec3: _boolean
+nsec3_opt_out: _boolean
+nsec3_iterations
+nsec3_narrow: _boolean
+nsec3_salt: 

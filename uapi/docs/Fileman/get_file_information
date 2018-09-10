@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Fileman::get_file_information
+path: 
+show_hidden: _boolean
+check_for_leaf_directories: _boolean
+include_mime: _boolean
+include_hash: _boolean
+include_permissions: _boolean

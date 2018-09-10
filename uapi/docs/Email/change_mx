@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::change_mx
+domain: _domainList
+exchanger: 
+oldexchanger: 
+priority: 0 1 {5..50..5}
+oldpriority: 
+alwaysaccept: auto local secondary remote

@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Fileman::transcode
+content:
+from_charset: UTF-8
+to_charset: ASCII
+discard_illegal: _boolean
+transliterate: _boolean

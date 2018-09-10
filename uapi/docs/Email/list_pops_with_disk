@@ -1,0 +1,10 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::list_pops_with_disk
+domain: _domainList
+maxaccounts: 
+no_disk: _boolean
+no_validate: _boolean
+regex: 
+email: _emailuser
+domain: _domainList
+infinityimg: 
+infinitylang: _boolean

@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Mailboxes::expunge_mailbox_messages
+account: _cpuser; _emailaddress
+mailbox: 
+query: 

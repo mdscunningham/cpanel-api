@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::list_mail_domains
+select: _domainList
+add_www: _boolean
+include_wildcard: _boolean

@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::reorder_filters
+mailbox: _emailaddress
+filter:
+filter{1..9}: 

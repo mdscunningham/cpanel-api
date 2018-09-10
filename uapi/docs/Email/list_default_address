@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::list_default_address
+domain: _domainList
+user: _emailuser

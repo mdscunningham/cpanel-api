@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Fileman::upload_files
+dir: 
+file: 
+file{1..9}:

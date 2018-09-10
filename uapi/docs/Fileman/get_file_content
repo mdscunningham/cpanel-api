@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Fileman::get_file_content
+dir: 
+file: 
+from_charset: _DETECT_
+to_charset: _LOCALE_

@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+VersionControl::update
+repository_root: 
+name: 
+branch: master
+source_repository: '{"remote_name":"origin"}'

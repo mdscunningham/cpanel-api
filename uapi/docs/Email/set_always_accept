@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::set_always_accept
+domain: _domainList
+mxcheck: auto local secondary remote
+alwaysaccept: _boolean

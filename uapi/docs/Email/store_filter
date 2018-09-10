@@ -1,0 +1,10 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::store_filter
+account: _emailaddress
+filtername:
+oldfiltername:
+action{1..9}: deliver fail finish save pipe
+dest{1..9}: _emailaddress
+match{1..9}: is matches contains does%20not%20contain begins does%20not%20begin ends does%20not%20end does%20not%20match is%20above is%20not%20above is%20below is%20not%20below
+opt{1..9}: and or
+part{1..9}: \$header_from: \$header_subject: \$header_to: \$reply_address: \$message_body: \$message_headers foranyaddress \$h_to: \$h_cc: not%20delivered error_message
+val{1..9}:

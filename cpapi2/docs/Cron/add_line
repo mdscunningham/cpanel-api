@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Cron::add_line
+weekday: {0..7}
+minute: {0..59}
+hour: {0..26}
+day: {1..31}
+month: {1..12}
+command:

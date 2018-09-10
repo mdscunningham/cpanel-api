@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+WordPressInstanceManager::configure_autoupdate
+id:
+autoupdate.core.major: _boolean
+autoupdate.core.minor: _boolean

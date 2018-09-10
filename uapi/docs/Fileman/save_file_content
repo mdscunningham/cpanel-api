@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Fileman::save_file_content
+dir:
+file:
+from_charset: UTF-8
+to_charset: ASCII
+content: 
+fallback: _boolean

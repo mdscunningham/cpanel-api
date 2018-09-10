@@ -1,0 +1,8 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Bandwidth::query
+grouping: domain protocol year year_month year_month_day year_month_day_hour year_month_day_mour_minute
+interval: daily hourly 5min
+domains: _domainList
+protocols: http imap smtp pop3 ftp
+start:
+end:
+timezone:

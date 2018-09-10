@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+SpamAssassin::update_user_preference
+score:
+required_score:
+whitelist_from:
+blacklist_from:

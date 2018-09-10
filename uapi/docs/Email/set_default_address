@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::set_default_address
+domain: _domainList
+fwdopt: fwd fail failmsgs blackhole pipe
+fwdemail: _emailaddress
+failmsgs:
+pipefwd:

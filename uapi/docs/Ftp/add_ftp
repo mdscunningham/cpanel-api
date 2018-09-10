@@ -1,0 +1,8 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Ftp::add_ftp
+user: 
+pass: 
+homedir: 
+quota: 
+disallowdot: _boolean
+domain: _domainList
+pass_hash: 

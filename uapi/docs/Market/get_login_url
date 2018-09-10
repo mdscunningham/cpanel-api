@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Market::get_login_url
+provider: _marketProvider
+url_after_login:

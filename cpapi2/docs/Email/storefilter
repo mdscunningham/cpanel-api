@@ -1,0 +1,10 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Email::storefilter
+account: _emailAddress
+filtername:
+oldfiltername: _filterList
+action{1..10}: deliver fail finish save pipe
+dest{1..10}: _emailAddress
+match{1..10}: is matches contains does%20no%contain begins does%20not%20begin ends does%20not$%20end does%20not$20match is%20above is%20not%above is%20below is%20not%20below
+opt{1..10}: and or
+part{1..10}: $header_from $header_subject $header_to $reply_address $message_body $message_headers foranyaddress $h_to $h_cc not%20delivered
+val{1..10}: 

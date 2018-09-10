@@ -1,0 +1,2 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+PasswdStrength::get_required_strength
+app: htaccess passwd ftp createacct bandmin cpaddons pop sshkey postgres webdisk mysql

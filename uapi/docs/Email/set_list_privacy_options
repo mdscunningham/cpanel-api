@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::set_list_privacy_options
+list: 
+advertised: _boolean
+archive_private: _boolean
+subscribe_policy: 1 2 3

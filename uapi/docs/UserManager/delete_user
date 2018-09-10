@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+UserManager::delete_user
+username:
+domain: _domainList

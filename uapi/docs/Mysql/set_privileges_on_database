@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Mysql::set_privileges_on_database
+user: _dbuserlist
+database: _dblist
+privileges: 'ALL PRIVILEGES' ALTER 'ALTER ROUTINE' CREATE 'CREATE ROUTINE' 'CREATE TEMPORARY TABLES' 'CREATE VIEW' DELETE DROP EVENT EXECUTE INDEX INSERT 'LOCK TABLES' REFERENCES SELECT 'SHOW VIEW' TRIGGER UPDATE

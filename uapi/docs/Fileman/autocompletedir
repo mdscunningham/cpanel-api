@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Fileman::autocompletedir
+path:
+dirsonly: _boolean
+list_all: _boolean
+html: _boolean

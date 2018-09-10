@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Mysql::get_privileges_on_database
+user: _dbuserlist
+database: _dblist

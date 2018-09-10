@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+LangPHP::php_set_vhost_versions
+vhost: _domainList
+version: _phpversion

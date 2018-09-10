@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+WebDisk::set_permissions
+user: 
+perms: ro rw
+

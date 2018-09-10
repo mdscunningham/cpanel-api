@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Branding::spritelist
+image: heading
+img:
+imgtype: icon
+method: only_filetype_gif skip_filetype_gif snap_to_smallest_width scale_60percent
+skipgroups: _boolean
+subtype: img bg compleximg

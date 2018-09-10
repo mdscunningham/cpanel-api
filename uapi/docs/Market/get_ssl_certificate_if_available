@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Market::get_ssl_certificate_if_available
+provider: _marketProvider
+order_item_id:

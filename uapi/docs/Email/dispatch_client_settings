@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::dispatch_client_settings
+to: _emailaddress
+account: 
+

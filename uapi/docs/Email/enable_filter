@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::enable_filter
+account: _emailaddress
+filtername: 

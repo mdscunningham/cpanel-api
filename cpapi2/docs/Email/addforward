@@ -1,0 +1,8 @@
+# https:://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Email::addforward
+domain: _domainList
+email: _emailAddress
+fwdopt: fwd fail blackhole pipe system
+fwdemail: 
+fwdsystem: 
+failmsgs: 
+pipefwd: 

@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+LangPHP::php_ini_set_user_basic_directives
+type: home vhost
+vhost: _domainList
+directive:
+directive{1..9}:
+

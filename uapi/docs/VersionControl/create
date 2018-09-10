@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+VersionControl::create
+type: git
+name: 
+repository_root: 
+source_repository: '{{"remote_name":"origin"},{"url":"ssh://"}}'

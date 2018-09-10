@@ -1,0 +1,2 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+SSL::rebuild_mail_sni_config
+reload_dovecot: _boolean

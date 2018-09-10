@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+ZoneEdit::remove_zone_record
+domain: _domainlist
+line:

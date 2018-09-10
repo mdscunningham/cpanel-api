@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::passwd_pop
+email: _emailuser
+password: 
+domain: _domainList

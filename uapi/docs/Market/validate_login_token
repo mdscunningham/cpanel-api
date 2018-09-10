@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Market::validate_login_token
+provider: _marketProvider
+login_token:
+url_after_login:

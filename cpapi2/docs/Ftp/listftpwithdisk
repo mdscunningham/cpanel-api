@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Ftp::listftpwithdisk
+dirhtml: 
+include_acct_types: main sub logaccess
+skip_acct_types: main sub logaccess

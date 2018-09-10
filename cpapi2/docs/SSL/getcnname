@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+SSL::getcnname
+domain: _domainlist
+service: imap pop3 smtp dav cpanel
+add_mail_subdomain: _boolean

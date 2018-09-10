@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+SubDomain::addsubdomain
+domain: 
+rootdomain: _domainlist
+canoff: _boolean
+dir: 
+disallowdot: _boolean

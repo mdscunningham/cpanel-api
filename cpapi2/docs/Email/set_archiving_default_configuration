@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Email::set_archiving_default_configuration
+incoming: -1 {0..365..7}
+outgoing: -1 {0..365..7}
+mailman: -1 {0..365..7}

@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+LeechProtect::setup
+dir:
+item: email kill numhits url
+type: html uri check

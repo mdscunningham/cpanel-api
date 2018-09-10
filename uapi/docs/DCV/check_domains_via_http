@@ -1,0 +1,8 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+DCV::check_domains_via_http
+domain: _domainList
+dcv_file_allowed_characters: 
+dcv_file_random_character_count: 
+dcv_file_extension: txt
+dcv_file_relative_path: .well-known/ 
+dcv_user_agent_string: Cpanel-HTTP-Client/1.0 COMODO+DCV
+

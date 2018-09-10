@@ -1,0 +1,11 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Market::request_ssl_certificates
+access_token:
+certificate:
+product_id:
+price:
+subject_names:
+validity_period:
+vhost_names:
+provider: _marketProvider
+url_after_checkout:
+identity_verification:

@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+ExternalAuthentication::remove_authn_link
+provider:
+subject_unique_identifier:

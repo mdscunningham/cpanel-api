@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Ftp::get_quota
+domain: _domainList
+user: _ftpuser
+

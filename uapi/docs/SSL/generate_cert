@@ -1,0 +1,10 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+SSL::generate_cert
+domains: _domainList
+countryName: 
+stateOrProvinceName: 
+localityName: 
+organizationName: 
+organizationalUnitName: 
+emailAddress: 
+key_id: 
+friendly_name: 

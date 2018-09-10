@@ -1,0 +1,21 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+UserManager::edit_user
+alternate_email: 
+avatar_url: 
+domain: _domainList
+password: 
+phone_number: 
+real_name: 
+send_invite: _boolean
+services.email.enabled: _boolean
+services.email.quota: 
+services.ftp.enabled: _boolean
+services.ftp.homedir: 
+services.webdisk.enabled: _boolean
+services.webdisk.enabledigest: _boolean
+services.webdisk.private: _boolean
+services.webdisk.homedir: 
+services.webdisk.perms: ro rw
+type: sub
+username: 
+
+

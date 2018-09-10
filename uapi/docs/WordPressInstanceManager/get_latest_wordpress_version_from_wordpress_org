@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+WordPressInstanceManager::get_latest_wordpress_version_from_wordpress_org
+force: _boolean
+cache_time: {3600..86400..3600}

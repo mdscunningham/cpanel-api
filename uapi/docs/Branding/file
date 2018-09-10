@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Branding::file
+file:
+needfile: _boolean
+skipdefault: _boolean
+checkmain: _boolean
+nomagic: _boolean

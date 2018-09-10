@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Fileman::search
+dir:
+attributes: user groupusage size type mode ctime atime mtime
+recursive: _boolean
+mimeinfo: _boolean
+regex:

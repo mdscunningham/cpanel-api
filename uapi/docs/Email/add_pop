@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::add_pop
+email: 
+password:
+domain: _domainList
+quota: 
+skip_update_db: _boolean
+password_hash: 

@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+SSL::get_cn_name
+domain: _domainList
+service: cpanel ftp imap pop3 smtp
+add_mail_subdomain: mail

@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Branding::image
+imagefile: 
+needfile: _boolean
+reqext: 
+skip_logo_check: _boolean
+nomagic: _boolean

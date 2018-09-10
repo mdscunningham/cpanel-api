@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+LangMods::search
+lang: _langlist
+skip: {10..100..10}
+want: {10..100..10}
+regex: 

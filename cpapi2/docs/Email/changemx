@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Email::changemx
+alwaysaccept: auto local secondary remote
+domain: _domainList
+exchange: 
+oldexchange: 
+oldpreference: {0..25..5}
+preference: {0..25..5}

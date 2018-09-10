@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Email::listpopswithdisk
+domain: _domainList
+nearquotaonly: _boolean
+novalidate: _boolean
+regex:

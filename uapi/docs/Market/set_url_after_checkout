@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Market::set_url_after_checkout
+provider: _marketProvider
+access_token:
+order_id:
+url_after_checkout:

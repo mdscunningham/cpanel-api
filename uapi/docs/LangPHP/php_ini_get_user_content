@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+LangPHP::php_ini_get_user_content
+type: home vhost
+vhost: _domainList

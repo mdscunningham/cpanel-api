@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+WebDisk::passwdwebdisk
+login:
+password:
+enablediget: _boolean

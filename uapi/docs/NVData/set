@@ -1,0 +1,2 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+NVData::set
+names: $(for x in /home*/$username/.cpanel/nvdata/*; do basename $x; done)

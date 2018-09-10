@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+SSL::list_ssl_items
+domains: _domainList
+item: key csr crt

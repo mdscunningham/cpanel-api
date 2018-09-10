@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::delete_pop
+email: _emailaddress
+flags: passwd
+domain: _domainList
+skip_quota: _boolean

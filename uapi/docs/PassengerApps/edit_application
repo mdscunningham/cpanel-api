@@ -1,0 +1,11 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+PassengerApps::edit_application
+name:
+new_name:
+path:
+domain: _domainList
+deployment_mode: development production
+envvar_name:
+envvar_value:
+clear_envvars: _boolean
+enabled: _boolean
+

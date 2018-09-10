@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+LangMods::install
+lang: _langlist
+mod: 
+quiet: _boolean

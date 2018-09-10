@@ -1,0 +1,12 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Fileman::list_files
+dirs: 
+types: file dir char block fifo link socket
+limit_to_list: _boolean
+only_these_files: 
+show_hidden: _boolean
+check_for_leaf_directories: _boolean
+mime_types: 
+raw_mime_types: 
+include_mime: _boolean
+include_hash: _boolean
+include_permissions: _boolean

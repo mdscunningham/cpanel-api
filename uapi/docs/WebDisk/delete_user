@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+WebDisk::delete_user
+user: 
+destroy: _boolean

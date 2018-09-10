@@ -1,0 +1,18 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+ZoneEdit::edit_zone_record
+line: 
+domain: _domainlist
+name:
+type: A CAA CNAME TXT AAAA SRV
+txtdata:
+target:
+Weight:
+priority:
+cname:
+address:
+flag: _boolean
+tag: issue issuewild iodef
+value:
+ttl:
+class: IN
+preference:
+exchange: 

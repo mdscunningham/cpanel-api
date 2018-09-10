@@ -1,0 +1,13 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+ZoneEdit::fetchzone_records
+domain: _domainlist
+customonly: _boolean
+line:
+ttl:
+name:
+class: IN
+address:
+type: A AAAA CAA CNAME MX NS RAW SOA SRV TXT
+txtdata:
+preference:
+exchange:
+

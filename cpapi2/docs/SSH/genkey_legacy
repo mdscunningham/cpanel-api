@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+SSH::genkey_legacy
+bits: {1024..4096..512}
+name:
+pass:
+type: dsa rsa

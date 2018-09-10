@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+ExternalAuthentication::add_authn_link
+username: _cpuser
+provider_id:
+subject_unique_identifier:
+preferred_username:

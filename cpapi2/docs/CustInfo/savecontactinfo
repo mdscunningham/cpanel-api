@@ -1,0 +1,25 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+CustInfo::savecontactinfo
+email: _emailaddress
+second_email: _emailaddress
+notify_account_authn_link: _boolean
+notify_account_authn_link_notification_disabled: _boolean
+notify_account_login: _boolean
+notify_account_login_for_known_netblock: _boolean
+notify_account_login_notification_disabled: _boolean
+notify_autossl_expiry: _boolean
+notify_autossl_expiry_coverage: _boolean
+notify_autossl_renewal_coverage_reduced: _boolean
+notify_autossl_renewal: _boolean
+notify_autossl_renewal_coverage: _boolean
+notify_bandwidth_limit: _boolean
+notify_contact_address_change: _boolean
+notify_contact_address_change_notification_disabled: _boolean
+notify_disk_limit: _boolean 
+notify_email_quota_limit: _boolean
+notify_password_change: _boolean
+notify_password_change_notification_disabled: _boolean
+notify_ssl_expiry: _boolean
+notify_twofactorauth_change: _boolean
+notify_twofactorauth_change_notification_disabled: _boolean
+pushbullet_access_token:
+username: _emailaddress

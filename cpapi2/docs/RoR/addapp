@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+RoR::addapp
+appname: 
+env: _boolean
+path: 
+loadonboot: _boolean

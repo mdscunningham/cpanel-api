@@ -1,0 +1,8 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Fileman::listfiles
+checkleaf: _boolean
+dir:
+filelist: _boolean
+filepath-{1..10}: 
+needmime: _boolean
+showdotfiles: _boolean
+types: dir file

@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::add_list
+list: 
+password: 
+domain: _domainList
+rebuildonly: _boolean
+private: _boolean

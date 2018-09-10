@@ -1,0 +1,8 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+StatsBar::stat
+display: ftpaccounts perlversion dedicatedip hostname operatingsystem sendmailpath autoresponders perlpath emailforwarders bandwidthusage emailfilters mailinglists diskusage phpversion sqldatabases apacheversion kernelversion shorthostname parkeddomains cpanelbuild theme addondomains cpanelrevision machinetype cpanelversion mysqldiskusage mysqlversion subdomains postgresdiskusage sharedip hostingpackage emailaccounts
+warnings: _boolean
+warninglevel:
+warnout: _boolean
+infinityimg: 
+infinitylang: 
+rowcounter: odd even

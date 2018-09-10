@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Ftp::delete_ftp
+domain: _domainList
+user: _ftpuser
+destroy: _boolean

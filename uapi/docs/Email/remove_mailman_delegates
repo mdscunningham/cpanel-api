@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::remove_mailman_delegates
+list:
+delegates: _emailaddress

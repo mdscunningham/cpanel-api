@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::list_pops
+regex: 
+no_validate: _boolean
+skip_main: _boolean

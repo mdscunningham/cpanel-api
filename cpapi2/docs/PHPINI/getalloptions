@@ -1,0 +1,2 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+PHPINI::getalloptions
+php_prefix: /usr/local/ /usr/local/php4/ /usr/local/cpanel/3rdparty/

@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::delete_forwarder
+address: _emailaddress
+forwarder: _emailaddress

@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+SourceIPCheck::loadsecquestions
+account: _cpuser
+q{1..10}:
+q{1..10}answer:

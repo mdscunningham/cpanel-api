@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Mysql::revoke_access_to_database
+user: _dbuserlist
+database: _dblist

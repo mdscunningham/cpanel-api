@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Email::setalwaysaccept
+domain: _domainList
+mxcheck: auto local secondary remote
+user: _cpuer

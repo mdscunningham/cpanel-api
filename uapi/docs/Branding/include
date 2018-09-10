@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Branding::include
+file: /usr/local/cpanel/base/<APPNAME>/<THEME>/branding
+skip_default: _boolean
+raw: _boolean

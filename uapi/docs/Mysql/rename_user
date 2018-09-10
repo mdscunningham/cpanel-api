@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Mysql::rename_user
+oldname: _dbuserlist
+newname: 

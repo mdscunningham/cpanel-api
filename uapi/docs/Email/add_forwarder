@@ -1,0 +1,8 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::add_forwarder
+domain: _domainList
+email: _emailaddress
+fwdopt: fwd fail blackhole pipe system
+fwdemail: _emailaddress
+fwdsystem: _cpuser
+failmsgs: 
+pipefwd: 

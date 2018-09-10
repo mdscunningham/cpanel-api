@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Fileman::mkfile
+name:
+path:
+permissions: 0600 0640 0644

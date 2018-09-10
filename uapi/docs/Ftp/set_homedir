@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Ftp::set_homedir
+user: _ftpuser
+domain: _domainList
+homedir: 

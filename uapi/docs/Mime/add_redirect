@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Mime::add_redirect
+domain: _domainList
+src: 
+redirect: 
+type: permanent temporary
+redirect_wildcard: _boolean
+redirect_www: 0 1 2

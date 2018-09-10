@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Mime::add_hotlink
+urls: 
+extensions: 
+allow_null: _boolean
+redirect_url: 

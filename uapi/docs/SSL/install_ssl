@@ -1,0 +1,5 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+SSL::install_ssl
+domain: _domainList
+cert: 
+key: 
+cabundle: 

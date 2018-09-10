@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Ftp::list_ftp_with_disk
+skip_acct_types: anonymous logaccess main sub
+include_acct_types: anonymous logaccess main sub

@@ -1,0 +1,2 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Mailboxes::get_mailbox_status_list
+account: _cpuser; _emailaddress

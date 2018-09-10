@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+DomainInfo::domains_data
+format: hash list
+

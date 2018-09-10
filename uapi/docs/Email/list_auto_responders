@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::list_auto_responders
+domain: _domainList
+regex: 

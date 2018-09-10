@@ -1,0 +1,11 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::add_auto_responder
+email: _emailuser
+from: _emailaddress
+subject: 
+body: 
+domain: _domainList
+is_html: _boolean
+charset: UTF-8
+interval: 
+start: 
+stop: 

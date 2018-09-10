@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::browse_mailbox
+account: _emailaddress
+dir: 
+showdotfiles: _boolean

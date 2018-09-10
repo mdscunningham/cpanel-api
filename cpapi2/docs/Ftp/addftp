@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Ftp::addftp
+user: 
+pass: 
+domain: _domainlist
+quota: 
+homedir: 

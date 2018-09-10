@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+Email::addpop
+domain: _domainList
+email: 
+password:
+quota:
+send_welcome_email: _boolean

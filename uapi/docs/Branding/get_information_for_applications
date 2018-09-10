@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Branding::get_information_for_applications
+docroot:
+app_keys: _appkey

@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Email::edit_pop_quota
+email: _emailuser
+domain: _domainList
+quota: 

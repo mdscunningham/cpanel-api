@@ -1,0 +1,6 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+UserManager::dismiss_user
+username: 
+domain: _domainList
+services.email.dismiss: _boolean
+services.ftp.dismiss: _boolean
+services.webdisk.dismiss: _boolean

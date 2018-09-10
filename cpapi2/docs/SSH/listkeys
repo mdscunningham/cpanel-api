@@ -1,0 +1,4 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+SSH::listkeys
+keys:
+pub: _boolean
+types: rsa dsa

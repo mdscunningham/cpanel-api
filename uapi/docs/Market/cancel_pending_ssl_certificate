@@ -1,0 +1,3 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Market::cancel_pending_ssl_certificate
+provider: _marketProvider
+order_item_id:

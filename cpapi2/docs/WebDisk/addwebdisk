@@ -1,0 +1,10 @@
+# https://documentation.cpanel.net/display/DD/cPanel+API+2+Functions+-+WebDisk::addwebdisk
+domain: _domainlist
+user:
+password: 
+perms: ro rw
+homedir: 
+private: _boolean
+enabledigest: _boolean
+password_hash: 
+digest_auth_hash: 

@@ -1,0 +1,7 @@
+# https://documentation.cpanel.net/display/DD/UAPI+Functions+-+Market::create_shopping_cart
+provider: _marketProvider
+access_token:
+url_after_checkout:
+item:
+product_id:
+item_parameter:
