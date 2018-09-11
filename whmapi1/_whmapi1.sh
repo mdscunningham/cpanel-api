@@ -4,7 +4,7 @@
 # Author: Mark David Scott Cunningham                      | M  | D  | S  | C  |
 #                                                          +----+----+----+----+
 # Created: 2016-06-21
-# Updated: 2018-06-19
+# Updated: 2018-09-11
 #
 # Purpose: Add bash tab completion to WHM/cPanel command line api utilities
 #
@@ -3376,11 +3376,11 @@ case ${firstWord} in
   *) ;;
 esac
 
-
-
 COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
 return 0;
 }
 
-complete -F _whmapi1 whmapi1;
-
+#If root user then allow tab complete of whmapi1
+if [[ $UID == 0 ]]; then
+  complete -F _whmapi1 whmapi1;
+fi
