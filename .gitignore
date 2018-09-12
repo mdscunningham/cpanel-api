@@ -1,1 +1,5 @@
 .old
+RPMS/
+SRPMS/
+noarch/
+x86_64/
